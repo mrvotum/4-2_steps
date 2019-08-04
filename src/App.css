@@ -1,0 +1,61 @@
+body{
+  padding: 20px;
+}
+
+.input {
+  height: 25px;
+  padding-left: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+.btn {
+  border: 1px solid #000;
+  box-sizing: border-box;
+  border-radius: 5px;  
+  padding: 8px 20px;
+  background-color: rgb(255, 255, 255);
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(236, 236, 236);
+}
+
+td {
+  min-width: 50px;
+}
+
+/* таблица */
+.table {
+  margin: auto;
+  margin-top: 20px;
+  padding: 30px;
+  border: 1px solid #000;
+  border-radius: 10px;  
+  box-sizing: border-box;
+  width: 50%;
+}
+/* .table > span {
+  display: block;
+} */
+
+.title {
+  font-weight: 700;
+}
+.title, .row {
+  display: flex;
+  justify-content: space-between;
+}
+.row {
+  margin-top: 10px;
+}
+
+.deleteBtn:hover {
+  cursor: pointer;
+  border-bottom: 1px dotted #000;
+}
+.deleteBtn:active {
+  border-bottom: 1px solid #000;
+}
+/* таблица */
